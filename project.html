@@ -1,0 +1,109 @@
+
+<style>
+
+  * {
+    color: white;
+  }
+
+  .content {
+    background-image: url("https://assets.codepen.io/6406818/Margarita.jpeg?width=1400&height=600&format=auto&fit=cover");
+    background-position:center;
+    background-repeat: norepeat;
+    z-index: -5;
+    height: 500px;
+    width: 100%;
+    opacity: 0.9;
+    color: white;
+    text-shadow: black 0.1em 0.1em 0.2em
+  }
+
+  .content:hover{
+    opacity: 1;
+  }
+
+
+  .drinkInfo {
+    margin: auto;
+    top: 130px;
+    position: relative;
+    text-align: center;
+  }
+
+  .center {
+    position: relative;
+    margin: 30px;
+    bottom: 40px;
+    text-align: center;
+    font-size: 50px;
+
+  }
+
+  .center-copy {
+    position: relative;
+    width: 756px;
+    left: 450px;
+    line-height:1.6;
+    text-align: center;
+    font-size: 20px
+  }
+
+  .centerbtn {
+    text-align: center;
+    position: relative;
+    top: 30px;
+    margin: 40px;
+
+
+  }
+
+  .click1 {
+    padding: 20px 10px;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin-right: 20%;
+    background-color: transparent;
+    border-radius: 35px;
+    border-color: #fff;
+    border-width: 4px;
+    color: #fff;
+    cursor: pointer;
+    z-index: 1000;
+
+  }
+
+  .click1:hover {
+    opacity: 0.8;
+  }
+
+  .click2 {
+    padding: 20px 10px;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    background-color: transparent;
+    border-radius: 35px;
+    border-color: #fff;
+    border-width: 4px;
+    color: #fff;
+    cursor: pointer;
+
+  }
+
+  .click2:hover {
+    opacity: 0.8;
+  }
+
+  </style>
+  <section class="content">
+  <div class="drinkInfo">
+      <div class="center"> Margarita </div>
+    <div class="center-copy" style="center">Our award-winning flagship drink. made with <em>Organic</em> lemon &amp; lime flavors
+  <b>Margarita Man® Margarita</b> concentrate, water, tequila, triple sec</div>
+    <div class="centerbtn">
+      <button class="click1"  onclick="open_section_text_editor('click1','400','300','12','#555555','','link','','', event); return !!false;" id="click1" data-id="click1" href="/link1"> ORDER ONLINE </button>
+    <button class="click2"  onclick="open_section_text_editor('click2','400','300','12','#555555','','link','','', event); return !!false;" id="click2" data-id="click2" href="/link2"> MIXING GUIDE </button>
+
+    </div>
+  </div>
+  </section>
